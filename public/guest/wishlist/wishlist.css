@@ -1,0 +1,113 @@
+.wishlist-area {
+    margin: 100px 0 50px;
+}
+
+.wishlist-area table td {
+    vertical-align: middle;
+}
+
+.wishlist-area .product-list-xs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wishlist-area .table .prd-thumbnail {
+    max-width: 150px;
+    height: auto;
+    position: relative;
+}
+
+.wishlist-area .table .prd-thumbnail img {
+    object-fit: contain;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.wishlist-area .product-list-xs .prd-item-infor {
+    position: relative;
+    bottom: 0;
+    opacity: 1;
+    display: block;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+.wishlist-area .product-list-xs .prd-item-infor a {
+    text-align: center;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+    padding: auto 15px;
+}
+
+.wishlist-area .product-list-xs .product-item {
+    border: 1px solid #f4f2f8;
+    margin: 0 15px;
+    position: relative;
+}
+
+.wishlist-area .product-list-xs .prd-item-thumb {
+    width: 100%;
+    margin: 15px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.wishlist-area .product-list-xs .prd-item-thumb a {
+    overflow: hidden;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wishlist-area .product-list-xs .prd-item-action li a {
+    background-color: #f4f2f8;
+}
+
+.wishlist-area .product-list-xs .prd-item-action li a:hover {
+    background-color: #3a3a3a;
+}
+
+@media (max-width: 575px) {
+    .wishlist-area {
+        margin-top: 50px;
+    }
+
+    .wishlist-area .product-list-xs {
+        position: relative;
+        left: 15px;
+    }
+
+    .wishlist-area .product-list-xs .product-item {
+        margin: 0;
+    }
+
+    .wishlist-area .product-list-xs .prd-item-thumb img {
+        max-width: 150px;
+    }
+}
+
+.infor-rating .stars {
+    position: relative;
+    overflow: hidden;
+    color: #a8a8a8;
+    white-space: nowrap;
+    margin-left: 10px;
+    --width: 0%;
+}
+
+.infor-rating .stars::after {
+    content: '\f005\f005\f005\f005\f005';
+    position: absolute;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    color: orange;
+    width: var(--width, 0);
+    left: 0;
+    bottom: -4px;
+    overflow-x: hidden;
+}

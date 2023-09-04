@@ -1,0 +1,145 @@
+
+.blog-list {
+    margin-top: 50px;
+}
+
+.single-blog {
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.single-blog .blog-item-thumb {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.single-blog .blog-item-thumb a {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+
+.single-blog .blog-item-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.single-blog .blog-item-details {
+    padding-top: 35px;
+}
+
+.single-blog .blog-item-details .content-details {
+    text-align: justify;
+}
+
+.single-blog .bl-date span {
+    color: #777777;
+    display: inline-block;
+    font-family: 'Poppins', serif;
+    font-size: 14px;
+    padding-bottom: 7px;
+    position: relative;
+}
+
+.single-blog .bl-date span::before {
+    background: #000000 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.single-blog .blog-item-details>a {
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 22px 0;
+    text-align: justify;
+    display: block;
+}
+
+.single-blog .blog-item-details>a:hover {
+    color: #c43b68;
+}
+
+.single-blog .blog-btn a {
+    color: #c43b68;
+    display: inline-block;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 700;
+    transition: all 0.4s ease 0s;
+}
+
+.single-blog .blog-btn a:hover {
+    color: #222;
+}
+
+.note-editor .note-toolbar {
+    background-color: #fff;
+    border-radius: 4px 4px 0 0;
+    border: none;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    height: 50px;
+}
+
+.note-editor .note-toolbar .note-insert {
+    display: block;
+    width: 30px;
+}
+
+.note-editor .note-toolbar .note-insert .btn {
+    margin: 2px 0;
+}
+
+.note-editor {
+    position: relative;
+    border: 1px solid #e2e2e4;
+    border-radius: 4px;
+}
+
+.note-editor .note-statusbar .note-resizebar {
+    border-top: 1px solid #e2e2e4;
+}
+
+.note-editor label {
+    display: block;
+}
+
+.note-editor .modal-header button {
+    position: absolute;
+    right: 10px;
+}
+
+.comm-addition {
+    position: relative;
+}
+
+.note-editor .note-editable {
+    padding-right: 50px;
+}
+
+.comm-addition .fr-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    width: 50px;
+    padding: 0;
+    outline: none;
+}
+
+.comm-addition .fr-btn:hover {
+    background-color: #c43b68;
+    color: #fff;
+}

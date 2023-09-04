@@ -1,0 +1,109 @@
+.login-wrap {
+    background-color: #3a3a3a;
+    position: relative;
+}
+
+.login-wrap .bg-login {
+    width: 60%;
+    overflow: hidden;
+    height: 100vh;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 80% 50%, 100% 0);
+}
+
+.login-wrap .bg-login img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.login-wrap h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-family: serif;
+    transform: perspective(200px) rotateX(20deg);
+    text-shadow: 1px 5px red;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.login-wrap .form-login {
+    position: relative;
+    width: 40%;
+}
+
+.login-wrap .form-login form {
+    width: 80%;
+}
+
+.login-wrap .form-login input:not([type=checkbox]) {
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.login-wrap .form-login label,
+.login-wrap .form-login a {
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-wrap .form-login input[type=checkbox] {
+    margin-right: 15px;
+}
+
+.login-wrap .btn-login {
+    width: 100%;
+    padding: 15px 0;
+}
+
+@media (max-width: 1201px) {
+    .login-wrap h1 {
+        font-size: 2em;
+    }
+
+    .login-wrap .bg-login {
+        width: 100%;
+        clip-path: polygon(0 0, 0 100%, 50% 100%, 50% 54%, 60% 31%, 100% 22%, 100% 0);
+    }
+
+    .login-wrap .form-login {
+        position: absolute;
+        right: 0;
+        bottom: 10%;
+        width: 50%;
+    }
+
+    .login-wrap .form-login form {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 993px) {
+    .login-wrap .bg-login {
+        width: 100%;
+        clip-path: none;
+    }
+
+    .login-wrap .form-login {
+        position: absolute;
+        right: 0;
+        bottom: 10%;
+        width: 60%;
+        height: 100%;
+        background-color: #3a3a3a;
+        clip-path: polygon(100% 31%, 62% 5%, 1% 28%, 0% 99%, 67% 100%, 100% 65%);
+    }
+}
+
+@media (max-width: 769px) {
+    .login-wrap .form-login {
+        position: absolute;
+        right: 0;
+        bottom: 10%;
+        width: 80%;
+        height: 100%;
+        background-color: #3a3a3a;
+        clip-path: polygon(100% 31%, 62% 5%, 1% 28%, 0% 99%, 67% 100%, 100% 65%);
+    }
+}

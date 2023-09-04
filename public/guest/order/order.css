@@ -1,0 +1,59 @@
+.wishlist-area {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#select-show-order {
+    width: max-content;
+}
+
+#orders-table td {
+    vertical-align: middle;
+
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+#orders-table .table-order-abstract>tbody>tr>td {
+    border: none;
+}
+
+#orders-table .order-abstract {
+    background-color: #f4f2f8;
+    padding: 10px 5px;
+}
+
+#orders-table .order-btn-detail {
+    margin-bottom: 15px;
+}
+
+#orders-table .order-detail td {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#orders-table .btn-order a:hover {
+    color: #c43b68;
+}
+
+#orders-table .order-detail.active .order-btn-detail {
+    display: none;
+}
+
+#orders-table .table .infor-thumb {
+    max-width: 120px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#orders-table .table .infor-thumb img {
+    object-fit: contain;
+    width: 100%;
+}
+
+#orders-table .table-order-detail th {
+    border-bottom: none;
+}

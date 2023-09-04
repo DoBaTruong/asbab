@@ -1,0 +1,139 @@
+
+/* Slide Collection */
+.owl-wrap {
+    position: relative;
+    font-size: 120%;
+}
+
+.owl-wrap .owl-nav div {
+    background: #c43b68 none repeat scroll 0 0;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 17px;
+    height: 50px;
+    left: 0;
+    line-height: 53px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transition: all 0.5s ease 0s;
+    width: 50px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.owl-wrap .owl-nav div.owl-next {
+    left: auto;
+    right: 0;
+}
+
+.owl-wrap:hover .owl-nav div {
+    opacity: 1;
+}
+
+.owl-image {
+    height: 700px;
+    width: 100%;
+}
+
+.owl-image img {
+    height: 100%;
+}
+
+.owl-wrap .owl-content {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(7, 89, 109, 0.15);
+}
+
+.cr-btn a {
+    background: #c43b68 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-family: serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 49px;
+    padding: 0 36px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+
+.cr-btn a:hover {
+    background: #313131 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.owl-content h2 {
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 4px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.owl-content h1 {
+    color: #030303;
+    font-family: Old Standard TT;
+    font-size: 89px;
+    margin-bottom: 14px;
+    margin-top: 31px;
+    text-transform: uppercase;
+}
+
+.owl-item.active .owl-content h2 {
+    -webkit-animation: 800ms ease-in-out 0s normal none 1 running bounceInDown;
+    animation: 800ms ease-in-out 0s normal none 1 running bounceInDown;
+}
+
+.owl-item.active .owl-content h1 {
+    -webkit-animation: 1000ms ease-in-out 0s normal none 1 running zoomInUp;
+    animation: 1000ms ease-in-out 0s normal none 1 running zoomInUp;
+}
+
+.owl-item.active .owl-content .cr-btn {
+    -webkit-animation: 1600ms ease-in-out 0s normal none 1 running bounceInDown;
+    animation: 1600ms ease-in-out 0s normal none 1 running bounceInDown;
+}
+
+
+.owl-item.active .owl-content p {
+    -webkit-animation: 1200ms ease-in-out 0s normal none 1 running zoomInUp;
+    animation: 1200ms ease-in-out 0s normal none 1 running zoomInUp;
+}
+
+.owl-item.active .owl-image img {
+    -webkit-animation: 1900ms ease-in-out 0s normal none 1 running bounceInRight;
+    animation: 1900ms ease-in-out 0s normal none 1 running bounceInRight;
+}
+
+.owl-brand .owl-stage {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.owl-brand .owl-stage img {
+    width: 80%;
+}
+
+.slide-brand-area {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+
+.slide-brand-area .owl-carousel {
+    margin: 0;
+    padding: 0;
+}
+
+.slide-brand-area .owl-carousel li {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

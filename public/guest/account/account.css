@@ -1,0 +1,75 @@
+.account-area .custom-radio input:checked+label {
+    transform: rotate(0);
+}
+
+.account-area input:disabled {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.account-area .pro-ava {
+    display: flex;
+    justify-content: center;
+}
+
+.account-area .pro-ava .avar-container {
+    width: max-content;
+}
+
+.account-area .pro-ava img {
+    height: auto;
+    width: 150px;
+}
+
+.account-area .acc-table input:not([type=radio]) {
+    width: 100%;
+}
+
+.account-area .acc-table td:nth-child(3) {
+    position: relative;
+}
+
+.account-area .pro-ava input[type=button] {
+    border: 0;
+    outline: 0;
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 15px;
+    margin-top: 15px;
+    width: max-content;
+}
+
+.account-area h3 {
+    position: relative;
+    font-weight: 700;
+    width: max-content;
+}
+
+.account-area .edit-badge {
+    position: absolute;
+    bottom: 50%;
+    font-size: 20px;
+    right: -45px;
+}
+
+#profile td {
+    border: none;
+}
+
+#resetpass input {
+    height: 52px;
+    background-color: #f4f2f8;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+form .error {
+    color: red
+}
